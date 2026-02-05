@@ -1,0 +1,69 @@
+[
+  {
+    "id": "poi-001",
+    "name": "Golden Gate Park",
+    "category": "Park",
+    "rating": 4.8,
+    "distance_m": 850,
+    "walking_time_min": 11,
+    "description": "1,017-acre urban park with gardens, museums, and recreational facilities",
+    "hours": "5:00 AM - 10:00 PM",
+    "admission": "Free",
+    "accessibility": true,
+    "noise_level": "quiet"
+  },
+  {
+    "id": "poi-002",
+    "name": "Cable Car Museum",
+    "category": "Museum",
+    "rating": 4.6,
+    "distance_m": 1200,
+    "walking_time_min": 15,
+    "description": "Free museum showcasing San Francisco's iconic cable car system",
+    "hours": "10:00 AM - 6:00 PM",
+    "admission": "Free",
+    "accessibility": true,
+    "noise_level": "moderate"
+  },
+  {
+    "id": "poi-003",
+    "name": "Chinatown Gateway",
+    "category": "Cultural",
+    "rating": 4.7,
+    "distance_m": 650,
+    "walking_time_min": 8,
+    "description": "Historic entrance to the largest Chinatown outside of Asia",
+    "hours": "Always open",
+    "admission": "Free",
+    "accessibility": true,
+    "noise_level": "lively"
+  },
+  {
+    "id": "poi-004",
+    "name": "Exploratorium",
+    "category": "Museum",
+    "rating": 4.9,
+    "distance_m": 2100,
+    "walking_time_min": 26,
+    "description": "Interactive science museum on Pier 15",
+    "hours": "10:00 AM - 5:00 PM (Closed Mondays)",
+    "admission": "$39.95 adults",
+    "accessibility": true,
+    "noise_level": "lively"
+  },
+  {
+    "id": "poi-005",
+    "name": "Coit Tower",
+    "category": "Landmark",
+    "rating": 4.5,
+    "distance_m": 1800,
+    "walking_time_min": 23,
+    "description": "210-foot tower with panoramic views of the city",
+    "hours": "10:00 AM - 6:00 PM",
+    "admission": "$10 for elevator",
+    "accessibility": false,
+    "noise_level": "moderate"
+  }
+]
+
+

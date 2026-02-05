@@ -1,0 +1,74 @@
+[
+  {
+    "id": "evt-001",
+    "name": "SF Jazz Festival",
+    "category": "Music",
+    "date": "2025-11-15",
+    "time": "7:30 PM",
+    "venue": "SF Jazz Center",
+    "distance_m": 1200,
+    "duration_min": 120,
+    "price": "$45-$95",
+    "description": "World-class jazz performances featuring international artists",
+    "booking_url": "https://example.com/sfjazz",
+    "accessibility": true
+  },
+  {
+    "id": "evt-002",
+    "name": "Ferry Building Farmers Market",
+    "category": "Market",
+    "date": "2025-10-18",
+    "time": "8:00 AM",
+    "venue": "Ferry Building Marketplace",
+    "distance_m": 2200,
+    "duration_min": 240,
+    "price": "Free entry",
+    "description": "Local farmers, artisan food vendors, and fresh produce",
+    "booking_url": null,
+    "accessibility": true
+  },
+  {
+    "id": "evt-003",
+    "name": "Comedy Night at Cobb's",
+    "category": "Comedy",
+    "date": "2025-10-20",
+    "time": "8:00 PM",
+    "venue": "Cobb's Comedy Club",
+    "distance_m": 1500,
+    "duration_min": 90,
+    "price": "$25-$40",
+    "description": "Stand-up comedy featuring local and touring comedians",
+    "booking_url": "https://example.com/cobbs",
+    "accessibility": true
+  },
+  {
+    "id": "evt-004",
+    "name": "Alcatraz Night Tour",
+    "category": "Tour",
+    "date": "2025-10-19",
+    "time": "6:30 PM",
+    "venue": "Alcatraz Island",
+    "distance_m": 3500,
+    "duration_min": 150,
+    "price": "$47",
+    "description": "Evening tour of the historic prison with special programming",
+    "booking_url": "https://example.com/alcatraz",
+    "accessibility": false
+  },
+  {
+    "id": "evt-005",
+    "name": "Yoga in the Park",
+    "category": "Wellness",
+    "date": "2025-10-17",
+    "time": "9:00 AM",
+    "venue": "Golden Gate Park",
+    "distance_m": 850,
+    "duration_min": 60,
+    "price": "Free",
+    "description": "Community outdoor yoga session, all levels welcome",
+    "booking_url": null,
+    "accessibility": true
+  }
+]
+
+

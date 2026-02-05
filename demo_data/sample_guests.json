@@ -1,0 +1,311 @@
+{
+  "guests": [
+    {
+      "id": 1,
+      "email": "demo@marriott.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "phone_number": "+1-555-0123",
+      "preferred_ai_personality": "friendly",
+      "preferred_language": "en",
+      "accessibility_features": ["voice_control", "high_contrast"],
+      "privacy_level": "standard",
+      "dietary_restrictions": ["vegetarian"],
+      "room_preferences": {
+        "temperature": 72,
+        "lighting": "dim",
+        "floor": "high",
+        "view": "city"
+      },
+      "service_preferences": {
+        "housekeeping_time": "morning",
+        "room_service": true,
+        "concierge_contact": "app_only"
+      },
+      "wellness_goals": ["stress_reduction", "better_sleep"],
+      "visit_history": [
+        {
+          "date": "2024-01-15",
+          "hotel": "Marriott Times Square",
+          "room": "1205",
+          "duration": "3 nights",
+          "satisfaction_score": 9.2
+        }
+      ],
+      "preferences_learned": {
+        "prefers_quiet_areas": true,
+        "morning_coffee_time": "7:30 AM",
+        "evening_wind_down": "10:00 PM",
+        "favorite_amenities": ["spa", "fitness_center"]
+      }
+    },
+    {
+      "id": 2,
+      "email": "sarah.smith@email.com",
+      "first_name": "Sarah",
+      "last_name": "Smith",
+      "phone_number": "+1-555-0456",
+      "preferred_ai_personality": "professional",
+      "preferred_language": "en",
+      "accessibility_features": ["screen_reader", "large_text"],
+      "privacy_level": "enhanced",
+      "dietary_restrictions": ["gluten_free", "dairy_free"],
+      "room_preferences": {
+        "temperature": 68,
+        "lighting": "bright",
+        "floor": "middle",
+        "view": "garden"
+      },
+      "service_preferences": {
+        "housekeeping_time": "afternoon",
+        "room_service": false,
+        "concierge_contact": "any_method"
+      },
+      "wellness_goals": ["fitness", "nutrition"],
+      "visit_history": [
+        {
+          "date": "2024-01-10",
+          "hotel": "Marriott Central Park",
+          "room": "804",
+          "duration": "2 nights",
+          "satisfaction_score": 8.8
+        }
+      ],
+      "preferences_learned": {
+        "early_riser": true,
+        "fitness_time": "6:00 AM",
+        "business_traveler": true,
+        "prefers_organic_food": true
+      }
+    },
+    {
+      "id": 3,
+      "email": "miguel.rodriguez@email.com",
+      "first_name": "Miguel",
+      "last_name": "Rodriguez",
+      "phone_number": "+1-555-0789",
+      "preferred_ai_personality": "enthusiastic",
+      "preferred_language": "es",
+      "accessibility_features": ["voice_control"],
+      "privacy_level": "minimal",
+      "dietary_restrictions": [],
+      "room_preferences": {
+        "temperature": 75,
+        "lighting": "medium",
+        "floor": "any",
+        "view": "any"
+      },
+      "service_preferences": {
+        "housekeeping_time": "evening",
+        "room_service": true,
+        "concierge_contact": "voice_preferred"
+      },
+      "wellness_goals": ["relaxation", "entertainment"],
+      "visit_history": [
+        {
+          "date": "2024-01-05",
+          "hotel": "Marriott Downtown",
+          "room": "1502",
+          "duration": "1 night",
+          "satisfaction_score": 9.5
+        }
+      ],
+      "preferences_learned": {
+        "social_butterfly": true,
+        "loves_music": true,
+        "prefers_group_activities": true,
+        "late_night_entertainment": true
+      }
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Marriott Times Square",
+      "location": "New York, NY",
+      "rooms": [
+        {
+          "number": "1205",
+          "floor": 12,
+          "type": "Deluxe King",
+          "features": ["city_view", "balcony", "smart_room"],
+          "status": "occupied",
+          "guest_id": 1
+        }
+      ],
+      "amenities": [
+        "spa", "fitness_center", "business_center", "restaurant", "bar", "concierge"
+      ],
+      "services": [
+        "room_service", "housekeeping", "valet_parking", "airport_shuttle"
+      ]
+    }
+  ],
+  "ai_personalities": [
+    {
+      "id": "professional",
+      "name": "Professional",
+      "description": "Formal, courteous, and efficient service style",
+      "greeting_style": "Good day, how may I assist you?",
+      "response_tone": "precise and helpful"
+    },
+    {
+      "id": "friendly",
+      "name": "Friendly",
+      "description": "Warm, approachable, and genuinely caring",
+      "greeting_style": "Hi there! I'm so happy to help you today!",
+      "response_tone": "warm and conversational"
+    },
+    {
+      "id": "enthusiastic",
+      "name": "Enthusiastic",
+      "description": "Energetic, passionate, and exciting",
+      "greeting_style": "Hello! I'm excited to help make your stay amazing!",
+      "response_tone": "energetic and passionate"
+    },
+    {
+      "id": "calm",
+      "name": "Calm",
+      "description": "Serene, composed, and soothing",
+      "greeting_style": "Hello. I'm here to help you feel comfortable and relaxed.",
+      "response_tone": "peaceful and reassuring"
+    },
+    {
+      "id": "humorous",
+      "name": "Humorous",
+      "description": "Witty, charming, and light-hearted",
+      "greeting_style": "Hey there! Ready to have some fun? Let me know what you need!",
+      "response_tone": "witty and entertaining"
+    },
+    {
+      "id": "empathetic",
+      "name": "Empathetic",
+      "description": "Deeply understanding and compassionate",
+      "greeting_style": "Hello. I'm here to listen and help however I can.",
+      "response_tone": "understanding and supportive"
+    }
+  ],
+  "emotions": [
+    {
+      "id": "joy",
+      "name": "Joy",
+      "description": "Positive, happy, and content",
+      "suggestions": [
+        "Would you like me to suggest some exciting activities?",
+        "I can help you plan a special celebration!",
+        "Let's make your stay even more amazing!"
+      ]
+    },
+    {
+      "id": "stress",
+      "name": "Stress",
+      "description": "Anxious, overwhelmed, or tense",
+      "suggestions": [
+        "Would you like me to dim the lights and play calming music?",
+        "I can schedule a spa treatment for you.",
+        "Let me help you find some relaxation activities."
+      ]
+    },
+    {
+      "id": "sadness",
+      "name": "Sadness",
+      "description": "Down, melancholic, or low energy",
+      "suggestions": [
+        "Would you like me to suggest some uplifting activities?",
+        "I can arrange for your favorite comfort food.",
+        "Let me help brighten your day with some recommendations."
+      ]
+    },
+    {
+      "id": "anger",
+      "name": "Anger",
+      "description": "Frustrated, irritated, or upset",
+      "suggestions": [
+        "I understand you're frustrated. How can I help resolve this?",
+        "Would you like me to connect you with our manager?",
+        "Let me help you find a solution right away."
+      ]
+    }
+  ],
+  "local_attractions": [
+    {
+      "id": 1,
+      "name": "Central Park",
+      "category": "parks",
+      "distance": "0.8 miles",
+      "rating": 4.8,
+      "description": "Beautiful urban park perfect for walking and relaxation",
+      "ar_enabled": true,
+      "hours": "6:00 AM - 1:00 AM",
+      "price": "Free"
+    },
+    {
+      "id": 2,
+      "name": "Times Square",
+      "category": "entertainment",
+      "distance": "0.5 miles",
+      "rating": 4.2,
+      "description": "Iconic entertainment district with bright lights and shows",
+      "ar_enabled": true,
+      "hours": "24/7",
+      "price": "Free"
+    },
+    {
+      "id": 3,
+      "name": "Metropolitan Museum of Art",
+      "category": "museums",
+      "distance": "1.2 miles",
+      "rating": 4.6,
+      "description": "World-renowned art museum with extensive collections",
+      "ar_enabled": true,
+      "hours": "10:00 AM - 5:00 PM",
+      "price": "$25"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Le Bernardin",
+      "cuisine": "french",
+      "price_range": "$$$$",
+      "rating": 4.9,
+      "distance": "0.3 miles",
+      "description": "Michelin-starred French seafood restaurant",
+      "reservation_required": true,
+      "dietary_options": ["vegetarian", "gluten_free"],
+      "ar_menu": true
+    },
+    {
+      "id": 2,
+      "name": "Joe's Pizza",
+      "cuisine": "italian",
+      "price_range": "$",
+      "rating": 4.5,
+      "distance": "0.2 miles",
+      "description": "Famous New York-style pizza",
+      "reservation_required": false,
+      "dietary_options": ["vegetarian"],
+      "ar_menu": false
+    }
+  ],
+  "wellness_services": [
+    {
+      "id": 1,
+      "name": "Deep Tissue Massage",
+      "category": "spa",
+      "duration": "60 minutes",
+      "price": 120.00,
+      "description": "Therapeutic massage for muscle tension relief",
+      "available_times": ["10:00 AM", "2:00 PM", "4:00 PM"]
+    },
+    {
+      "id": 2,
+      "name": "Morning Yoga",
+      "category": "fitness",
+      "duration": "45 minutes",
+      "price": 25.00,
+      "description": "Gentle yoga flow to start your day",
+      "available_times": ["7:00 AM", "8:00 AM"]
+    }
+  ]
+}
